@@ -40,7 +40,7 @@
 
     <!-- container start -->
     <div class="container"> 
-        <form action="http://localhost/php/payment_gateway/request.php" method="post">
+        <form action="request.php" method="post">
           <div class="form-group">
               <label for="name">Name : </label> <br>
               <input type="text" name="name" id="name" class="form-control" required>
