@@ -22,7 +22,7 @@ if(isset($_POST['submit']))
             'amount' => $amount,
             'phone' => $contact_no,
             'buyer_name' => $name,
-            'redirect_url' => 'http://localhost/php/payment_gateway/redirect.php',
+            'redirect_url' => 'redirect.php',
             'send_email' => true, 
             'send_sms' => true,
             'email' => $email,
