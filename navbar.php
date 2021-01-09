@@ -9,12 +9,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="http://localhost/php/payment_gateway" class="navbar-brand">ABC Orphanage</a> 
+                    <a href="index.php" class="navbar-brand">ABC Orphanage</a> 
                 </div>
                 <div class="collapse navbar-collapse" id="colNavBar">
                     <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://localhost/php/payment_gateway">HOME</a></li>
-                    <li><a href="http://localhost/php/payment_gateway/form.php">DONATE</a></li>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="form.php">DONATE</a></li>
                     </ul>
                 </div>
             </div>
