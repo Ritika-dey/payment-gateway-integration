@@ -56,7 +56,7 @@
       <div class="maindiv"> 
         <h1>"An effort made for the happiness of others lifts us above ourselves."</h1> 
         <div class="donate">
-          <a href="http://localhost/php/payment_gateway/form.php"><button class="btn btn-primary">DONATE</button></a>
+          <a href="form.php"><button class="btn btn-primary">DONATE</button></a>
         </div>
       </div>
     <!-- Container end -->
