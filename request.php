@@ -22,7 +22,7 @@ if(isset($_POST['submit']))
             'amount' => $amount,
             'phone' => $contact_no,
             'buyer_name' => $name,
-            'redirect_url' => 'redirect.php',
+            'redirect_url' => 'https://tsf-task2.herokuapp.com/redirect.php',
             'send_email' => true, 
             'send_sms' => true,
             'email' => $email,
