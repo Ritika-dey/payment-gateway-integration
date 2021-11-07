@@ -15,8 +15,8 @@ if(isset($_POST['submit']))
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
         curl_setopt($ch, CURLOPT_HTTPHEADER,
-                    array("X-Api-Key:test_6b2c2cbea0075abeda40c97a183",
-                        "X-Auth-Token:test_2423878f62054245d96ecaa1173"));
+                    array("X-Api-Key:PUT_API_KEY",
+                        "X-Auth-Token:PUT_AUTH_TOKEN"));
         $payload = Array(
             'purpose' => 'Donation for ABC Orphanage',
             'amount' => $amount,
